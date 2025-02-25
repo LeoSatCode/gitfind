@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gitfind/static/css/main.caa5eb1e.css",
+    "main.js": "/gitfind/static/js/main.fe50f456.js",
+    "static/media/kailasa-bold.ttf": "/gitfind/static/media/kailasa-bold.cc70124f3c66c4617d56.ttf",
+    "static/media/git.svg": "/gitfind/static/media/git.aae66a027b04a561f0b2e1fcc3fd0908.svg",
+    "index.html": "/gitfind/index.html",
+    "main.caa5eb1e.css.map": "/gitfind/static/css/main.caa5eb1e.css.map",
+    "main.fe50f456.js.map": "/gitfind/static/js/main.fe50f456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caa5eb1e.css",
+    "static/js/main.fe50f456.js"
+  ]
+}
