@@ -6,7 +6,7 @@ export const AppProvider = ({ children }) => {
   const [user, setUser] = useState('');
   const [currentUser, setCurrentUser] = useState(null);
   const [repos, setRepos] = useState(null);
-  const [placeholder, setPlaceholder] = useState("@username");
+  const [placeholder, setPlaceholder] = useState("username");
 
   const handleGetData = async () => {
     const userData = await fetch(`https://api.github.com/users/${user}`);
