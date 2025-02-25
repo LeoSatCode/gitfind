@@ -1,22 +1,31 @@
-.item-list{
+.repo-link {
+    position: relative;
+    text-decoration: none; 
+    cursor: pointer; 
+    color: #539BF5; 
+    display: inline-block; 
+  }
+  
+  .item-list {
     margin: 24px 0;
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: "Kailasa";
     src: url("../../assets/fonts/kailasa-bold.ttf") format("truetype");
   }
-
-.item-list strong {
-    color:#539BF5;
+  
+  .item-list strong {
+    color: inherit; 
     font-size: 24px;
     margin: 24px 0;
     font-family: "Kailasa", sans-serif;
-}
-
-.item-list p {
+  }
+  
+  .item-list p {
     color: #999999;
     font-size: 12px;
     margin: 24px 0;
     font-family: "Kailasa", sans-serif;
-}
+  }
+  

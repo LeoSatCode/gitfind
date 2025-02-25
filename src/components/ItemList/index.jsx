@@ -1,14 +1,16 @@
-import React from 'react'
-import './styles.css'
+import React from 'react';
+import './styles.css';
 
-function ItemList({title, description}) {
+function ItemList({ title, link, description }) {
   return (
     <div className='item-list'>
-      <strong>{title}</strong>
+      <a className='repo-link' href={link} target="_blank" rel="noopener noreferrer">
+        <strong className='repo-title'>{title}</strong>
+      </a>
       <p>{description}</p>
       <hr />
     </div>
-  )
+  );
 }
 
-export default ItemList
+export default ItemList;

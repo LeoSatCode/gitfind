@@ -25,6 +25,8 @@ input {
 
   margin-right: 12px;
   padding: 10px;
+
+  color: #ffffff;
 }
 
 button {
@@ -107,3 +109,4 @@ button:hover {
   margin: 12px 0;
   text-align: center;
 }
+
